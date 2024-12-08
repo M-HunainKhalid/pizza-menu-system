@@ -1,0 +1,18 @@
+# Common ignores for Rails (backend)
+backend/log/*
+backend/tmp/*
+backend/.bundle
+backend/db/*.sqlite3
+backend/db/*.sqlite3-journal
+backend/storage/*
+backend/public/assets
+backend/node_modules/
+backend/yarn-error.log
+
+# Common ignores for React (frontend)
+frontend/node_modules/
+frontend/build/
+frontend/.env
+
+# System-specific files
+.DS_Store
