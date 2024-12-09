@@ -10,10 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2024_12_09_000740) do
+ActiveRecord::Schema[8.0].define(version: 2024_12_09_001658) do
   create_table "menus", force: :cascade do |t|
-    t.string "name"
-    t.float "price"
+    t.string "name", null: false
+    t.float "price", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
