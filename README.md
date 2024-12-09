@@ -1,6 +1,6 @@
 # **Pizza Menu System**
 
-This is a full-stack application for managing menus, consisting of a **React frontend (`client`)** and a **Rails API backend (`server`)**. The application enables users to search for menus by name and sort them by price dynamically.
+This is a full-stack application for managing menus, consisting of a **React frontend (`client`)** and a **Rails API backend (`server`)**. The application enables users to search for menus by name and sort them by price.
 
 ---
 
