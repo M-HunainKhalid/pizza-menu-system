@@ -1,6 +1,6 @@
 import { useQuery, UseQueryResult } from "@tanstack/react-query";
-import { MenuRepository } from "repositories/menuRepository";
-import { Menu, SortType } from "utils/types";
+import { MenuRepository } from "../repositories/menuRepository";
+import { Menu, SortType } from "../utils/types";
 import { useDebounce } from "use-debounce";
 
 export const useMenuSearch = (

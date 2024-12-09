@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
-import { useMenuSearch } from "hooks/useMenuSearch";
+import { useMenuSearch } from "../hooks/useMenuSearch";
 import { useDebouncedCallback } from "use-debounce";
-import { SortType } from "utils/types";
-import { SortOptions } from "utils/enums";
+import { SortType } from "../utils/types";
+import { SortOptions } from "../utils/enums";
 
 const useMenuSearchPage = () => {
   const navigate = useNavigate();

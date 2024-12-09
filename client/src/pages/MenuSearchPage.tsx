@@ -1,8 +1,8 @@
-import SearchBar from "components/SearchBar";
-import MenuCard from "components/MenuCard";
-import LoadingErrorWrapper from "components/LoadingErrorWrapper";
-import useMenuSearchPage from "hooks/useMenuSearchPage";
-import PriceSortDropdown from "components/PriceSortDropdown";
+import SearchBar from "../components/SearchBar";
+import MenuCard from "../components/MenuCard";
+import LoadingErrorWrapper from "../components/LoadingErrorWrapper";
+import useMenuSearchPage from "../hooks/useMenuSearchPage";
+import PriceSortDropdown from "../components/PriceSortDropdown";
 
 const MenuSearchPage = () => {
   const {

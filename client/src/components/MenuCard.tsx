@@ -1,5 +1,5 @@
 import { memo } from "react";
-import { Menu } from "utils/types";
+import { Menu } from "../utils/types";
 
 const MenuCard = memo(({ menu }: { menu: Menu }) => {
   return (

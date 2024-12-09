@@ -1,5 +1,5 @@
-import { SortOptions } from "utils/enums";
-import { SortType } from "utils/types";
+import { SortOptions } from "../utils/enums";
+import { SortType } from "../utils/types";
 
 interface PriceSortDropdownProps {
   sort: SortType;

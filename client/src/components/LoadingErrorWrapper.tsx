@@ -1,6 +1,6 @@
-import LoadingMessage from "components/LoadingMessage";
-import ErrorMessage from "components/ErrorMessage";
 import { memo, ReactNode } from "react";
+import LoadingMessage from "../components/LoadingMessage";
+import ErrorMessage from "../components/ErrorMessage";
 
 interface LoadingErrorWrapperProps {
   isLoading: boolean;

@@ -1,5 +1,5 @@
 import { memo } from "react";
-import LoadingMessage from "components/LoadingMessage";
+import LoadingMessage from "../components/LoadingMessage";
 
 const LoadingFallback = memo(() => (
   <div className="fallback-container ">

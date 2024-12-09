@@ -1,6 +1,6 @@
-import axiosClient from "repositories/axiosClient";
-import { handleApiResponse } from "utils/apiUtils";
-import { SortType } from "utils/types";
+import axiosClient from "../repositories/axiosClient";
+import { handleApiResponse } from "../utils/apiUtils";
+import { SortType } from "../utils/types";
 
 export const MenuRepository = {
   getMenusData: async (searchQuery?: string, sort?: SortType) => {
